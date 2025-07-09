@@ -3,8 +3,11 @@ This project explores the use of probabilistic clustering to identify interpreta
 
 ## Goals
 - Cluster NBA players based on statistical profiles to uncover meaningful archetypes
-- Implement a Gaussian Mixture Model (GMM) with a Dirichlet prior from scratch
-- Extend to a Dirichlet Process Gaussian Mixture Model (DPGMM) to automatically infer the number of clusters
+  - 
+- Implement a Gaussian Mixture Model (GMM) from scratch
+  -
+- Extend to a Dirichlet Process Gaussian Mixture Model (DPGMM)
+  -
 
 ## Current Progress
 - ✅ Data collection and preprocessing
@@ -16,13 +19,6 @@ This project explores the use of probabilistic clustering to identify interpreta
 ## Example Output
 <img width="313" alt="Screenshot 2025-07-09 at 4 40 17 PM" src="https://github.com/user-attachments/assets/d7a5b921-c7d9-47ce-8a50-55cf6aadb5a3" />
 <img width="299" alt="Screenshot 2025-07-09 at 4 40 34 PM" src="https://github.com/user-attachments/assets/e388632d-d234-4d3c-a4ee-9686a1aa44ba" />
-
-
-
-## To Do
-- [ ] Add mathematical formulation and derivation
-- [ ] Integrate Dirichlet Process for automatic cluster count
-- [ ] Evaluate clustering with silhouette score, adjusted Rand index, etc.
 
 ## Notes
 This project is a work in progress
