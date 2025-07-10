@@ -17,7 +17,7 @@ This project explores the use of probabilistic clustering to identify interpreta
 
 ## Current Progress
 - ✅ Data collection and preprocessing
-- ✅ Initial GMM implementation with Dirichlet prior
+- ✅ Initial GMM implementation
 - 🔄 Currently evaluating cluster quality
 - 🔜 Planning to implement DPGMM for more flexible modeling
 - 🔜 Adding mathematical derivations and formal explanation
