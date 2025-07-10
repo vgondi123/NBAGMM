@@ -2,10 +2,18 @@
 This project explores the use of probabilistic clustering to identify interpretable player archetypes (e.g., off-the-dribble scorers, stretch bigs, elite wing defenders) from 2024–2025 NBA player statistics.
 
 ## Goals
-- Cluster NBA players based on statistical profiles to uncover meaningful archetypes
-  - lsuetetr rf f
+- Cluster NBA players based on statistical profiles to uncover player archetypes
+  - Helps teams identify players suited for specific roles to aid team-building  
+  - Can be extended to project college players’ potential roles in the NBA  
+  - Highlights overlooked players by revealing their play style  
+  - Gives fans a clearer picture of the different player types in the league
 - Implement a Gaussian Mixture Model (GMM) from scratch
-- Extend to a Dirichlet Process Gaussian Mixture Model (DPGMM)
+  - Enables soft clustering, allowing players to partially belong to multiple archetypes rather than forcing hard assignments  
+  - Models clusters with different distributions and shapes, capturing more complex, realistic patterns in player data  
+  - Offers greater interpretability than methods like KMeans by providing full statistical profiles for each cluster
+- Extend to a Dirichlet Process Gaussian Mixture Model (DPGMM) to automatically infer the number of clusters  
+  - The exact number of NBA player archetypes is unknown and likely fluid across seasons  
+  - Allows the data to determine the appropriate number of clusters rather than setting it manually
 
 ## Current Progress
 - ✅ Data collection and preprocessing
