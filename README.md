@@ -7,7 +7,7 @@ This project explores the use of probabilistic clustering to identify interpreta
   - Can be extended to project college players’ potential roles in the NBA  
   - Highlights overlooked players by revealing their play style  
   - Gives fans a clearer picture of the different player types in the league
-- Implement a Gaussian Mixture Model (GMM) from scratch
+- Implement a Gaussian Mixture Model (GMM) for clustering
   - Enables soft clustering, allowing players to partially belong to multiple archetypes rather than forcing hard assignments  
   - Models clusters with different distributions and shapes, capturing more complex, realistic patterns in player data  
   - Offers greater interpretability than methods like KMeans by providing full statistical profiles for each cluster
